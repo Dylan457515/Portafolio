@@ -8,7 +8,11 @@ class index(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
+        #agregando datos para el portafolio
+
+        #agregando informacion basica
         context['nombre'] = 'Dylan'
-        context['titulo'] = 'Esta es una platilla de ejemplo en Django'
-        context['titulo'] = 'Esta es una platilla de ejemplo en Django'
+        context['apellido'] = ' Quispe Huallpa'
+        context['gmail'] = ' dylanquispehuallpa80@gmail.com'
+        context['numero'] = '+591 67046908'
         return context
