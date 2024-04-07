@@ -17,6 +17,9 @@ class index(TemplateView):
         context['numero'] = '+591 67046908'
         context['ubicacion'] = 'El Alto · La Paz · Bolivia ·'
 
+
+
+
         #contenido interno
         context['presentacion'] = 'Tengo experiencia en aprovechar marcos ágiles para proporcionar una sinopsis sólida para descripciones generales de alto nivel. Los enfoques iterativos de la estrategia corporativa fomentan el pensamiento colaborativo para promover la propuesta de valor general.'
 
