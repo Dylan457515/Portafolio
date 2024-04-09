@@ -17,7 +17,12 @@ class index(TemplateView):
         context['numero'] = '+591 67046908'
         context['ubicacion'] = 'El Alto · La Paz · Bolivia ·'
 
+        #experiencia
+        context['titulo_experiencia_1']='DESARROLLADORA WEB SENIOR '
+        context['subtitulo_experiencia_1'] = 'Proyecto Semestral'
+        context['contenido_experiencia_1'] = 'En el marco de mi formación académica, lideré con éxito el desarrollo de un sistema de historial clínico con base de datos para un proyecto semestral. Este sistema no solo facilitó la gestión eficiente de los datos clínicos, sino que también sirvió como un modelo para futuras implementaciones tecnológicas en el sector de la salud.'
 
+        
         #educasion
         context['lugar_estudios']= 'Universidad Saleciana de Bolivia'
         context['carrera'] = 'Ingenieria de Sistemas'
